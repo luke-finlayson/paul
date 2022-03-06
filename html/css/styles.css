@@ -1,0 +1,107 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;600&family=Fredoka&family=Patua+One&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font Colours */
+.blue-font {
+  color: #3581B8;
+}
+.white-font {
+  color: #ffffff;
+}
+.grey-font {
+  color: #909090;
+}
+.light-grey-font {
+  color: #BABABA;
+}
+
+/* Backgrounds */
+.blue {
+  background: #3581B8;
+}
+.grey {
+  background: #F8F8F8;
+}
+.rounded-left {
+  border-radius: 50px 0px 0px 50px;
+}
+.rounded-right {
+  border-radius: 0px 50px 50px 0px;
+}
+
+/* Text Styling */
+h1, p {
+  margin: 0;
+}
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-top: 55px;
+}
+.logo-text {
+   font-family: 'Fredoka', sans-serif;
+   font-size: 29px;
+}
+.nav-link {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: right;
+  padding: 15px 25px 15px 0px;
+}
+.bold {
+  font-weight: 600;
+}
+.table-item {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.total {
+  font-size: 35px;
+  font-weight: 600;
+}
+.table-header {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+}
+
+/* Containers */
+.nav-container {
+  width: 350px;
+  height: 100%;
+  float: left;
+  border-right: 5px solid #3581B8;
+  -webkit-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.16);
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px 0px 25px;
+}
+.main-container {
+  float: left;
+}
+.nav-links {
+  margin-top: 100px;
+  padding-left: 40px;
+}
+.nav-link-container:hover {
+    background: #F8F8F8;
+}
+
+/* Other */
+.logo-container img {
+  height: 6px;
+}
